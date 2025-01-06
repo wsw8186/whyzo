@@ -1,8 +1,7 @@
 WEB PROJECT PLANING
 =
 
-## ▶️ 배포 사이트
-#### [건강풀떼기](https://freshfarmpj.shop)
+## ▶️ 마켓컬리 클론코딩
 </br>
 
 ## ▶️ 개발 동기
