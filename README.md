@@ -92,7 +92,7 @@ WEB PROJECT PLANING
 <br/>
 
 ## ▶️ ERD
-![Uploading 스크린샷 2025-01-06 오전 10.44.55.png…]()
+<img width="978" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/45106404-050c-4453-9a62-de2e0cfc011f" />
 
 
 
