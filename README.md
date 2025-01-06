@@ -91,6 +91,8 @@ WEB PROJECT PLANING
 |관리자 페이지|<ul><li>상품 관리</li></ul>|
 <br/>
 
+## ▶️ ERD
+![Uploading 스크린샷 2025-01-06 오전 10.44.55.png…]()
 
 
 
