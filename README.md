@@ -34,23 +34,20 @@ WEB PROJECT PLANING
 |조원|주역할|보조역할|
 |---------------|----------------|------------------------|
 |공통|요구사항분석 및 시스템 설계|-| 
-|우상원(조장, BE/FE)|상품 서비스, 게시판 서비스, 결제 서비스|전체 서비스| 
-|김기현(조원1, BE)|회원 서비스, 주문/결제 서비스, 장바구니 서비스|배송 서비스| 
-|지윤서(조원2, BE)|상품 서비스, 배송 서비스|결제 서비스| 
+|우상원(조장, BE/FE)|장바구니, 이메일, 결제, 리뷰, 유저 서비스|전체 서비스| 
+|김기현(조원1, BE)|상품 서비스| 
+|지윤서(조원2, BE)|상품 서비스|
 <br/>
 
 ## ▶️ 개발 환경
 |-|개발 환경|
 |---------------|----------------|
 |IDE|IntelliJ Idea|
-|JDK|JDK 17|
-|SpringBoot Version|3.2.5|
+|JDK|JDK 21|
+|SpringBoot Version|3.4.0|
 |Build Tool|gradle|
 |DBMS|Mysql|
 |Connection Pool|HikariCP|
-|Version Control|Git|
-|Repository Hosting|GitHub|
-|Testing Framework|JUnit5|
 |Security|Spring Security|
 <br/>
 
