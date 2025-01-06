@@ -60,7 +60,7 @@ WEB PROJECT PLANING
 |OAuth2 로그인|카카오|[링크](https://developers.kakao.com/docs/latest/ko/index)|
 |OAuth2 로그인|구글|[링크](https://console.cloud.google.com/)|
 |OAuth2 로그인|네이버|[링크](https://developers.naver.com/products/login/api/api.md)|
-|이메일 인증|Google Gmail|[링크](https://console.cloud.google.com/)|
+|메일 발송|NAVER MAIL|
 <br/>
 
 ## ▶️ SKILLS
@@ -68,7 +68,6 @@ WEB PROJECT PLANING
 ![JAVA](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white)
 ![SpringBoot](https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![SpringSecurity](https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![thymeleaf](https://img.shields.io/badge/thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white)
 ---
 
 #### FE
@@ -76,7 +75,6 @@ WEB PROJECT PLANING
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white)
-![BootStrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ---
 
 #### DATABASE
