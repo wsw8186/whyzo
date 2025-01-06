@@ -14,12 +14,12 @@ WEB PROJECT PLANING
 
 ## ▶️ 개발 목표
 <strong>
-    <p>농축산물 쇼핑몰 웹 서비스 구축 및 배포</p>
+    <p>쇼핑몰 웹 서비스 구축 및 배포</p>
 </strong>
 <br/>
 
 ## ▶️ 참가 인원 
-[박민석 BE/FE](https://github.com/pakms980319) | [황보성현 BE/FE](https://github.com/hbsh2330) | [이운호 BE/FE](https://github.com/98Woonho) |
+[우상원 BE/FE]| [김기현 BE]| [지윤서 BE]|
 <br/>
 
 ## ▶️ 개발 일정
