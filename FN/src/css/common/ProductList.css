@@ -1,0 +1,212 @@
+@import '../common/CommonStyles.css';
+
+.list-page {
+    width: 100%;
+    padding: var(--spacing-xl) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-container {
+    width: var(--max-width);
+    padding: var(--spacing-xl) 0;
+}
+
+/* 카테고리 필터 스타일 */
+.list-filter {
+    display: flex;
+    gap: var(--spacing-xl);
+    padding: var(--spacing-lg) 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.list-filter a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 16px;
+}
+
+.list-filter a:hover {
+    color: var(--primary-color);
+}
+
+/* 정렬 옵션 스타일 */
+.list-sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-md) 0;
+    margin: var(--spacing-md) 0;
+}
+
+.list-sort-count {
+    font-size: 20px;
+}
+
+.list-sort-buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.list-sort-buttons a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 16px;
+    padding: 0 var(--spacing-sm);
+}
+
+.list-sort-buttons a:hover {
+    color: var(--primary-color);
+}
+
+.list-sort-buttons a.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* 상품 그리드 레이아웃 */
+.list-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xl);
+}
+
+/* main.css 스타일 참고하여 수정 */
+.list-product-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7px;
+}
+
+.list-product-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.list-product-image {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.list-product-image img {
+    width: 100%;
+    aspect-ratio: 249/320;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.list-product-image:hover img {
+    transform: scale(1.05);
+}
+
+.list-cart-button {
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    transition: all 0.3s ease;
+}
+
+.list-cart-button:hover {
+    background-color: rgb(95, 0, 128);
+    border-color: rgb(95, 0, 128);
+    color: white;
+}
+
+.list-cart-button:hover svg path {
+    stroke: white;
+}
+
+.list-cart-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.list-product-info {
+    margin-top: 0;
+}
+
+.list-product-info h3 {
+    font-size: 16px;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.list-product-link:hover .list-product-info h3 {
+    text-decoration: none;
+}
+
+.list-price-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.list-price-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.list-discount {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(250, 98, 47);
+}
+
+.list-price {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(51, 51, 51);
+}
+
+.list-original-price {
+    font-size: 14px;
+    color: rgb(181, 181, 181);
+    text-decoration: line-through;
+}
+
+/* 페이지네이션 */
+.list-pagination {
+    margin-top: var(--spacing-xl);
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+}
+
+.list-page-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    background-color: var(--bg-primary);
+    cursor: pointer;
+}
+
+.list-page-button.active {
+    background-color: var(--primary-color);
+    color: var(--bg-primary);
+    border-color: var(--primary-color);
+}
+
+
+

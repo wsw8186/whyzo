@@ -1,0 +1,216 @@
+/* Banner */
+.coupon {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ddd;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 200px;
+}
+
+.left img {
+    height: 40px;
+}
+
+.left span {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Search */
+.search {
+    flex: 1;
+    max-width: 400px;
+}
+
+.search form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search input:focus {
+    outline: none;
+    border-color: var(--primary-dark);
+    box-shadow: 0 0 0 2px rgba(95, 0, 128, 0.1);
+}
+
+.search button {
+    position: absolute;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* User Navigation */
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 200px;
+    justify-content: flex-end;
+}
+
+.right a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.right a:hover {
+    color: var(--primary-color);
+}
+
+.welcome-message {
+    color: var(--primary-color);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.admin-link {
+    color: #fff !important;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.admin-link:hover {
+    background-color: #4a006a;
+    color: #fff !important;
+}
+
+.logout-button {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.logout-button:hover {
+    background-color: #f5f5f5;
+}
+
+/* Main Navigation */
+.dropdown {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+.dropdown-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.dropdown-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.dropdown-label:hover {
+    color: var(--primary-color);
+}
+
+.dropdown-label span {
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown-label:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 12px 20px;
+    transition: all 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-item:hover a {
+    color: var(--primary-color);
+}
+
+.list-item {
+    font-size: 14px;
+}
+
+.list-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list-item a:hover {
+    color: var(--primary-color);
+} 

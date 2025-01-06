@@ -1,0 +1,344 @@
+.mypage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mypage-search-container {
+    margin: var(--spacing-xl) 0;
+}
+
+.mypage-search-input {
+    width: 100%;
+    height: var(--search-height);
+    padding: 0 var(--spacing-lg);
+    font-size: 16px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-normal);
+}
+
+.mypage-search-input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.mypage-orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.mypage-order-item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--spacing-lg);
+    padding-top: calc(var(--spacing-lg) + 24px);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    background-color: var(--bg-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.mypage-order-date {
+    position: absolute;
+    top: var(--spacing-sm);
+    left: var(--spacing-lg);
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.mypage-content-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.mypage-image-container {
+    position: relative;
+    margin-right: var(--spacing-md);
+    flex-shrink: 0;
+}
+
+.mypage-product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--border-radius-sm);
+}
+
+.mypage-status-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: var(--bg-primary);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--primary-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.mypage-order-info {
+    flex: 1;
+    margin-right: var(--spacing-md);
+}
+
+.mypage-order-info h3 {
+    margin: 0 0 var(--spacing-xs) 0;
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mypage-price {
+    margin: var(--spacing-xs) 0;
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mypage-quantity {
+    margin: var(--spacing-xs) 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.mypage-order-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    min-width: 100px;
+    flex: 0.2;
+}
+
+.mypage-track-button, .mypage-review-button {
+    height: 36px;
+    padding: 0 var(--spacing-lg);
+    border: none;
+    border-radius: var(--border-radius-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-normal);
+    font-size: 13px;
+    width: 100%;
+}
+
+.mypage-track-button {
+    background-color: var(--primary-color);
+    color: var(--bg-primary);
+}
+
+.mypage-track-button:hover {
+    background-color: var(--primary-dark);
+}
+
+.mypage-no-orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.mypage-review-button {
+    background-color: var(--success-color);
+    color: var(--bg-primary);
+}
+
+.mypage-review-button:hover {
+    opacity: 0.9;
+}
+
+.mypage-pagination {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+}
+
+.mypage-pagination button {
+    height: var(--button-height-sm);
+    min-width: var(--button-height-sm);
+    padding: 0 var(--spacing-sm);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: var(--transition-normal);
+}
+
+.mypage-pagination button:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.mypage-pagination button.active {
+    background-color: var(--primary-color);
+    color: var(--bg-primary);
+    border-color: var(--primary-color);
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-button.active {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.order-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.order-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.review-button {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.review-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-item {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-rating {
+    color: #ffd700;
+}
+
+.review-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+.review-delete-button {
+    padding: 5px 10px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.review-edit-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.review-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.product-reviews {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.product-reviews h3 {
+    margin-bottom: 20px;
+}
+
+.review-author {
+    color: #666;
+    font-size: 14px;
+}
+
