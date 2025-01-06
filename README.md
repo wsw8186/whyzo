@@ -71,7 +71,7 @@ WEB PROJECT PLANING
 ---
 
 #### FE
-![REACT]("https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white)
+![REACT](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white)
 ---
