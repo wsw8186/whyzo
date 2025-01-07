@@ -123,28 +123,12 @@ WEB PROJECT PLANING
 ---
 <br/>
 
-### 게시판 서비스
+### 인증 서비스
 | URI                | REQUEST METHOD | DESCRIPTION                  |
 |--------------------|----------------|------------------------------|
-| /customerInquiryBoardList       | GET                | 고객 문의 게시판을 조회합니다. |
-| /customerInquiryBoard       | GET                | 고객 문의 상세 정보를 조회합니다. |
-| /myCustomerInquiryBoardList       | GET                | 나의 고객 문의 게시판을 조회합니다. |
-| /customerInquiryBoardComment       | GET                | 고객 문의 게시글에 작성된 댓글 리스트를 반환합니다. |
-| /productInquiryBoardList       | GET                | 상품 문의 게시판을 조회합니다. |
-| /productInquiryBoard       | GET                | 상품 문의 게시글을 조회합니다. |
-| /productInquiryBoard/passwordCheck       | POST                | 상품 문의 게시글 비밀번호를 체크합니다. |
-| /myProductInquiryBoardList      | GET                | 나의 상품 문의 게시판을 조회합니다. |
-| /productInquiryBoardListAPI      | GET                | 상품에 대해 작성된 상품 문의 게시글 리스트를 반환합니다. |
-| /productInquiry      | GET                | 상품 문의 게시글 작성 페이지를 조회합니다. |
-| /productInquiry      | POST                | 상품 문의 게시글을 작성합니다. |
-| /updateProductInquiry      | GET                | 상품 문의 게시글 수정 페이지를 조회합니다. |
-| /productInquiry      | PUT                | 상품 문의 게시글을 수정합니다. |
-| /productInquiry      | DELETE                | 상품 문의 게시글을 삭제합니다. |
-| /ProductInquiryBoardComment      | GET                | 게시글에 작성된 댓글 리스트를 반환합니다. |
-| /productReviewBoardListAPI      | POST                | 상품에 대해 작성된 상품 리뷰 리스트를 반환합니다. |
-| /productReviewBoardList      | GET                | 상품 리뷰 게시판을 조회합니다. |
-| /productReviewBoard      | GET                | 상품 리뷰 게시글을 조회합니다. |
-| /myProductReviewBoardList      | GET                | 나의 상품 리뷰 게시판을 조회합니다. |
+| /api/auth/login       | POST                | 로그인 관련 서비스입니다 jwt토큰발급하여 쿠키에 저장합니다. |
+| /api/auth/logout       | POST                | 로그아웃 관련 서비스입니다 쿠키에 저장된 jwt토큰을 삭제합니다. |
+| /api/auth/check       | GET                | 쿠키에 저장된 jwt토큰을 받아 유저정보를 추출합니다.
 ---
 <br/>
 
