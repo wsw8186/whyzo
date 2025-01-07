@@ -100,15 +100,12 @@ WEB PROJECT PLANING
 ### 회원 서비스
 | URI           | REQUEST METHOD | DESCRIPTION            |
 |---------------|----------------|------------------------|
-| /user         | POST               | 회원가입을 합니다. 회원가입은 포트원 본인인증 API를 사용해서 인증된 회원만 회원가입이 가능합니다. |
-| /user/findUserIdByEmail     | POST               | 회원이 가입한 이메일로 회원의 아이디를 찾는 서비스입니다. |
-| /user/findUserIdByPhone     | POST               | 회원이 가입한 휴대폰번호로 회원의 아이디를 찾는 서비스입니다. |
-| /user/findUserPasswordByEmailAsRandomValue     | POST               | 회원 이메일과 랜덤코드를 받아서 회원의 비밀번호를 찾는 서비스입니다. 인증에 통과한 회원에게 비밀번호 랜덤값을 전송합니다. |
-| /user/findUserPasswordByAuthentication     | POST               | 포트원 본인인증 API를 사용해서 회원의 비밀번호를 찾는 서비스입니다. 본인인증에 통과한 회원에게 비밀번호 랜덤값을 전송합니다.|
-| /user/duplicateUserCheck     | POST               | 회원가입시 중복된 회원인지 확인하는 서비스입니다.  |
-| /myPage/user/modify     | PATCH               | 회원정보를 수정하는 서비스입니다. 회원정보 수정시 아이디, 비밀번호 체크를 한번더 통해서 인증된 회원만 수정이 가능합니다. |
-| /myPage/user/delete     | DELETE               | 회원정보를 삭제하는 서비스입니다. 회원정보 삭제시 아이디, 비밀번호 체크를 한번더 통해서 인증된 회원만 수정이 가능합니다. |
-| /myPage/user/searchForm     | GET               | 회원정보 조회를 합니다. 회원조회시 회원의 중요 정보(아이디, 비밀번호 등)을 제외한 개인정보(이름, 주소, 휴대폰 번호)등을 확인 할 수 있습니다.|
+| /api/v1/users         | POST               | 회원가입을 합니다. 회원가입은 포트원 본인인증 API를 사용해서 인증된 회원만 회원가입이 가능합니다. |
+| /api/v1/users     | GET               | 회원이 가입한 이름과 이메일로 유저아이디를 찾는 서비스입니다. |
+| /api/v1/users/{userId}     | POST               | 회원가입시 중복된 회원아이디인지 확인하는 서비스입니다. |
+| /api/v1/users/password-resets     | POST               | 비밀번호를 잃어버린 회원이 비밀번호를 재설정하는 서비스입니다. |
+| /api/v1/users/password-resets/{token}     | GET               | 비밀번호 변경을 위해 발급된 토큰이 유효한지 검사하는 서비스입니다.|
+| /api/v1/users/password0resets/{token}    | PUT               | 변경된 비밀번호를 업데이트하는 서비스 입니다.  |
 ---
 <br/>
 
