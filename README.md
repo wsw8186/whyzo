@@ -113,15 +113,13 @@ WEB PROJECT PLANING
 ### 상품 서비스
 | URI           | REQUEST METHOD | DESCRIPTION            |
 |---------------|----------------|------------------------|
-| /productList | GET         | 상품 리스트를 조회합니다. | 
-| /product | GET           | 상품 상세정보를 조회합니다  |
-| /popularProducts | GET           | 카테고리별 인기 상품 리스트를 반환합니다. |
-| /highDiscountProducts | GET         | 할인율이 높은 상품 리스트를 반환합니다.  |
-| /recentProducts | GET        | 최근에 등록된 상품 리스트를 반환합니다.  |
-| /admin/addProduct | GET        | 상품 등록 폼 페이지를 조회합니다.  |
-| /admin/product | POST        | 상품을 등록합니다.  |
-| /admin/modifyProduct | GET        | 상품 수정 폼 페이지를 조회합니다.  |
-| /admin/product | PUT        | 상품을 수정합니다.  |
+| /product/listAll | GET         | 상품 리스트를 조회합니다. | 
+| /product/listId/{id} | GET           | 상품 상세정보를 조회합니다  |
+| /product/add | POST           | 상품을 등록합니다. |
+| /product/edit/{id} | GET         | 상품 수정을 원하는 데이터를 조회합니다.  |
+| /product/edit/update | PUT        | 상품을 수정합니다.  |
+| /product/search | GET        | 원하는 상품을 검색을 통해 조회합니다.  |
+| /product/edit/delete/{id} | DELETE        | 상품을 삭제합니다.  |
 ---
 <br/>
 
