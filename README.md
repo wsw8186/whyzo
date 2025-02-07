@@ -188,15 +188,18 @@ JAVAMAILSENDER
 <strong>
     <p>OAuth2로그인</p>
     ![oauth](https://github.com/user-attachments/assets/decfca14-9f34-4492-94fc-87c6ddd0b315)
+     <br/>
 </strong>
 <br/>
 <strong>
     <p>아이디 및 비밀번호 찾기</p>
     ![비밀번호](https://github.com/user-attachments/assets/97f1205d-e8a5-4b06-9125-d418f253253f)
+     <br/>
 </strong>
 <br/>
 <strong>
     <p>결제</p>
+
   
 </strong>
 <br/>
