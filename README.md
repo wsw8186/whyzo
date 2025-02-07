@@ -178,6 +178,14 @@ JAVAMAILSENDER
 ---
 <br/>
 
+## ▶️ 기능시현
+<strong>
+    <p>회원가입</p>
+    ![image](https://github.com/user-attachments/assets/0304ad23-9d65-41a0-a0d0-6906a62f858c)
+
+</strong>
+<br/>
+
 ## ▶️ 프로젝트를 진행하며 느낀점
 <strong>
   프로젝트를 시작할 때 ERD나 Use Case 설계 없이 바로 코드를 작성하는 일이 많았습니다. 처음에는 이런 방식을 간단하고 빠른 접근이라고 생각했지만, 시간이 지날수록 문제가 발생하기 시작했습니다.
