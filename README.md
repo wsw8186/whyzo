@@ -199,7 +199,7 @@ JAVAMAILSENDER
 <br/>
 <strong>
     <p>아이디 및 비밀번호 찾기</p>
-    ![Image](https://github.com/user-attachments/assets/2625b4f0-80e5-428c-a168-395b68803d6d)
+    <img width="978" src="https://github.com/user-attachments/assets/a2323341-38c4-4672-a1a7-771132de2887" />
      <br/>
 </strong>
 <br/>
