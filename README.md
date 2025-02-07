@@ -69,7 +69,7 @@ WEB PROJECT PLANING
 ![SpringBoot](https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![SpringSecurity](https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 
-JPA
+JPA,
 JAVAMAILSENDER
 
 ---
@@ -78,7 +78,8 @@ JAVAMAILSENDER
 ![REACT](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white)
-HTML
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
 ---
 
 #### DATABASE
