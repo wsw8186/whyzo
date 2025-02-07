@@ -193,7 +193,7 @@ JAVAMAILSENDER
     <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/89f359bf-34dc-43cb-9aed-717f8dcb4d7e" />
     <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/b48b27c5-b5df-4da7-be27-70ce14137eeb" />
     <br/>
-    ![Image](https://github.com/user-attachments/assets/d812b683-d937-466b-be39-ed74627e500b)
+    <img width="978" src="https://github.com/user-attachments/assets/d812b683-d937-466b-be39-ed74627e500b" />
      <br/>
 </strong>
 <br/>
