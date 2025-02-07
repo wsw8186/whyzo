@@ -154,7 +154,7 @@ JAVAMAILSENDER
 | URI           | REQUEST METHOD | DESCRIPTION            |
 |---------------|----------------|------------------------|
 | /api/orders/my-orders         | GET              | 주문한 물건들을 보여주는 서비스입니다.|
-| /api/orders         | POST             | 물건들을 주문하는 서비스입니다. 물건 주문은 장바구니 가능합니다. |
+| /api/orders         | POST             | 물건들을 주문하는 서비스입니다. 물건 주문은 장바구니에서 가능합니다. |
 
 ---
 <br/>
