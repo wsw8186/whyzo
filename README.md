@@ -203,27 +203,6 @@ JAVAMAILSENDER
      <br/>
 </strong>
 <br/>
-<strong>
-    <p>결제</p>
-
-  
-</strong>
-<br/>
-<strong>
-    <p>리뷰</p>
-   
-</strong>
-<br/>
-<strong>
-    <p>검색 및 필터</p>
-    
-</strong>
-<br/>
-<strong>
-    <p>관리자페이지</p>
-  
-</strong>
-<br/>
 
 ## ▶️ 프로젝트를 진행하며 느낀점
 <strong>
