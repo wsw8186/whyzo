@@ -183,7 +183,7 @@ JAVAMAILSENDER
     <p>회원가입</p>
     <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/2ea2d673-208d-4779-8a07-33a161f47c21" />
     <br/>
-    ![회원가입](https://github.com/user-attachments/assets/7b5e0cfe-23d7-44c5-9e54-d1683723767f)
+    ![Image](https://github.com/user-attachments/assets/7189f605-2723-41dd-bca3-28a656967e87)
     <br/>
 </strong>
 <br/>
@@ -193,13 +193,13 @@ JAVAMAILSENDER
     <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/89f359bf-34dc-43cb-9aed-717f8dcb4d7e" />
     <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/b48b27c5-b5df-4da7-be27-70ce14137eeb" />
     <br/>
-    ![oauth](https://github.com/user-attachments/assets/decfca14-9f34-4492-94fc-87c6ddd0b315)
+    ![Image](https://github.com/user-attachments/assets/d812b683-d937-466b-be39-ed74627e500b)
      <br/>
 </strong>
 <br/>
 <strong>
     <p>아이디 및 비밀번호 찾기</p>
-    ![비밀번호](https://github.com/user-attachments/assets/97f1205d-e8a5-4b06-9125-d418f253253f)
+    ![Image](https://github.com/user-attachments/assets/2625b4f0-80e5-428c-a168-395b68803d6d)
      <br/>
 </strong>
 <br/>
