@@ -183,7 +183,7 @@ JAVAMAILSENDER
     <p>회원가입</p>
     <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/2ea2d673-208d-4779-8a07-33a161f47c21" />
     <br/>
-    ![Image](https://github.com/user-attachments/assets/7189f605-2723-41dd-bca3-28a656967e87)
+    <img width="978" src="https://github.com/user-attachments/assets/7189f605-2723-41dd-bca3-28a656967e87" />
     <br/>
 </strong>
 <br/>
