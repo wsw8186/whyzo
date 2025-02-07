@@ -181,6 +181,8 @@ JAVAMAILSENDER
 ## ▶️ 기능시현
 <strong>
     <p>회원가입</p>
+    ![image](https://github.com/user-attachments/assets/2ea2d673-208d-4779-8a07-33a161f47c21)
+    <br/>
     ![회원가입](https://github.com/user-attachments/assets/7b5e0cfe-23d7-44c5-9e54-d1683723767f)
     <br/>
 </strong>
