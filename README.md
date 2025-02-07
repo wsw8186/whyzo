@@ -34,7 +34,7 @@ WEB PROJECT PLANING
 |조원|주역할|보조역할|
 |---------------|----------------|------------------------|
 |공통|요구사항분석 및 시스템 설계|-| 
-|우상원(조장, BE/FE)|장바구니, 이메일, 결제, 리뷰, 유저 서비스|전체 서비스| 
+|우상원(조장, BE/FE)|프론트엔드 구현,장바구니, 이메일, 결제, 리뷰, 유저 서비스|전체 서비스| 
 |김기현(조원1, BE)|상품 서비스| 
 |지윤서(조원2, BE)|상품 서비스|
 <br/>
@@ -68,12 +68,16 @@ WEB PROJECT PLANING
 ![JAVA](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white)
 ![SpringBoot](https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![SpringSecurity](https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+JPA
+JAVAMAILSENDER
+
 ---
 
 #### FE
 ![REACT](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white)
+HTML
 ---
 
 #### DATABASE
