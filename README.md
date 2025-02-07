@@ -189,6 +189,10 @@ JAVAMAILSENDER
 <br/>
 <strong>
     <p>OAuth2로그인</p>
+    <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/c45bb353-caf4-4d1d-888b-928de3f5b64a" />
+    <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/89f359bf-34dc-43cb-9aed-717f8dcb4d7e" />
+    <img width="auto" alt="스크린샷 2025-01-06 오전 10 44 55" src="https://github.com/user-attachments/assets/b48b27c5-b5df-4da7-be27-70ce14137eeb" />
+    <br/>
     ![oauth](https://github.com/user-attachments/assets/decfca14-9f34-4492-94fc-87c6ddd0b315)
      <br/>
 </strong>
