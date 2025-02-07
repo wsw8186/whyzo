@@ -181,8 +181,37 @@ JAVAMAILSENDER
 ## ▶️ 기능시현
 <strong>
     <p>회원가입</p>
-    ![image](https://github.com/user-attachments/assets/0304ad23-9d65-41a0-a0d0-6906a62f858c)
-
+    ![회원가입](https://github.com/user-attachments/assets/7b5e0cfe-23d7-44c5-9e54-d1683723767f)
+</strong>
+<br/>
+<strong>
+    <p>OAuth2로그인</p>
+    ![oauth](https://github.com/user-attachments/assets/decfca14-9f34-4492-94fc-87c6ddd0b315)
+</strong>
+<br/>
+<strong>
+    <p>아이디 및 비밀번호 찾기</p>
+    ![비밀번호](https://github.com/user-attachments/assets/97f1205d-e8a5-4b06-9125-d418f253253f)
+</strong>
+<br/>
+<strong>
+    <p>결제</p>
+  
+</strong>
+<br/>
+<strong>
+    <p>리뷰</p>
+   
+</strong>
+<br/>
+<strong>
+    <p>검색 및 필터</p>
+    
+</strong>
+<br/>
+<strong>
+    <p>관리자페이지</p>
+  
 </strong>
 <br/>
 
