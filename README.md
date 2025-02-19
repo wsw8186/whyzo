@@ -205,24 +205,28 @@ JAVAMAILSENDER
 <br/>
 <strong>
     <p>결제</p>
+    <p>링크 클릭시 동영상이 재생됩니다</p>
     https://github.com/user-attachments/assets/de356a2e-395a-4f17-9bd5-b5bfe5c2a662
     <br/>
 </strong>
 <br/>
 <strong>
     <p>리뷰</p>
+    <p>링크 클릭시 동영상이 재생됩니다</p>
     https://github.com/user-attachments/assets/e1717467-401d-471b-8629-28e9fc928868
     <br/>
 </strong>
 <br/>
 <strong>
     <p>검색 및 필터</p>
+    <p>링크 클릭시 동영상이 재생됩니다</p>
     https://github.com/user-attachments/assets/b7d5d146-5a1e-4a72-af7d-63f695699b60
     <br/>
 </strong>
 <br/>
 <strong>
     <p>관리자페이지 및 상품 수정/삭제/등록</p>
+    <p>링크 클릭시 동영상이 재생됩니다</p>
     https://github.com/user-attachments/assets/1c6130c0-6c68-462a-b132-b47e024edaf0
     <br/>
 </strong>
